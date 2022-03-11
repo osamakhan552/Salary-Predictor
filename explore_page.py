@@ -32,7 +32,7 @@ def cleanEducation(x):
     if 'Master’s degree' in x:
         return 'Master’s degree'
     if 'Professional degree' in x or 'Other doctoral' in x:
-        return 'Post grad'
+        return 'Professional or Other doctoral degree'
     return 'Less than a bachelors'
 
 @st.cache
